@@ -1,4 +1,4 @@
-#Задача №1
+
 length = int(input('Введите длину стороны квадрата: '))
 perimeter = length * 4
 square = length**2
@@ -11,7 +11,10 @@ S = length1 * vwidth1
 print('Периметр:', P)
 print('Площадь:', S)
 
-#Задача №2
+a = '#'
+b = P + S
+print(a * b)
+
 salary = int(input('Введите заработную плату: '))
 mortgageInterest = int(input('Какой процент от зп уходит на ипотеку: '))
 life = int(input('Какой процент от зп уходит на жизнь: '))
@@ -21,7 +24,5 @@ accumulation = salary * 12 - mortgage + forlife
 print('На ипотеку было потрачено: ', (int(mortgage)))
 print('Было накоплено: ', (int(accumulation)))
 
-#Задача №3
-a = '#'
-b = P + S
-print(a * b)
+
+
